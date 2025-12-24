@@ -1,0 +1,2 @@
+## codeExplorer
+CodeExplorer is a software platform that integrates various code scanning tools. When using these code scanning tools, you need to upload the code repository to be analyzed, and then proceed through multiple steps such as code preprocessing, model training, model usage, and result visualization (each step can be used separately). By scanning the code, hidden defects (such as code cloning, feature jealousy, etc.) can be discovered, which can be used to evaluate and improve software quality.
