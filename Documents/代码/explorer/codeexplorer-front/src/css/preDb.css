@@ -1,0 +1,211 @@
+.table1 {
+    flex: 1;
+    margin: 0px 24px 22px 24px;
+    border-radius: 8px 8px 0px 0px;
+    background-color: #FFFFFF;
+    /* 元素完全不透明 */
+    overflow-x: auto;
+    opacity: 1;
+    margin-top: 0px;
+
+}
+
+.on {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px 8px 0px 0px;
+}
+
+.bigDiv {
+    width: 100%;
+    height: 500px;
+    /* background-color: #ecedef; */
+    
+}
+
+.font {
+    width: 100%;
+    font-size: 18px;
+    margin: 24px 24px 22px 24px;
+    align-self: center;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0em;
+}
+
+
+.bigrow{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.bg-purple-left{
+    /* background: #e5e9f2; */
+    height: 100%;
+    /* margin:1px; */
+    padding-top: 12px;
+    padding-left: 12px;
+}
+
+.fileTree {
+    height: 100%;
+    overflow-y: auto;
+}
+
+.fileStyle {
+    padding-left: 20px;
+    height: 100%;
+    list-style-type: none;
+    /* 去掉默认圆点 */
+}
+
+/* 针对嵌套列表的样式 */
+.fileStyle ul {
+    list-style-type: none;
+    /* 去掉嵌套列表的圆点 */
+    padding-left: 20px;
+    /* 添加内边距以使嵌套列表缩进 */
+}
+
+.center1 {
+   
+    /* 水平方向出现滚动条，如果需要 */
+    /* 防止内容自动换行 */
+    /* box-sizing: border-box; */
+    border-radius: 4px;
+    /* padding: 16px */
+}
+
+.grid-content {
+    border-radius: 4px;
+    min-height: 36px;
+    /* padding: 12px; */
+}
+
+.bg-purple {
+    height: 100%;
+    width: 100%;
+    overflow-y: auto;
+    /* 垂直方向出现滚动条 */
+    overflow-x: auto;
+    /* background: #ecedef; */
+}
+
+
+.bg-purple-dark {
+    /* background: #ecedef; */
+}
+
+/* 箭头大小设置 */
+.arrow {
+    font-size: 13px;
+    /* 调整箭头的大小 */
+}
+
+.el-dialog__body {
+    padding: 0px;
+}
+
+/* 改变字体颜色*/
+.el-dialog__body{
+    color:black
+}
+
+.row {
+    display: flex;
+    justify-content: flex-end;
+    /* 将按钮右对齐 */
+}
+
+.exist {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.btstyle {
+    margin-top: 10px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    justify-content: flex-end;
+}
+
+/* 新增数据集title样式*/
+.custom-dialog .el-dialog__header {
+    padding: 16px 0px 24px 24px; /* 设置 header 的 padding-top */
+
+  }
+/* 新增数据集title样式*/
+  .custom-dialog  .el-dialog__title{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.85) !important;;
+    line-height: normal;
+  }
+
+.update-icon{
+    width: 48px;
+    height: 48px;
+    /* padding:80px 245px 0px 245px; */
+    background-color: #F8FBFE  !important;
+}
+
+.upload-demo{
+    background-color: #F8FBFE  !important;
+    margin:0px 24px 32px 24px;
+    width: 538px;
+    height: 280px;
+    align-content: center;
+    text-align: center;
+    
+}
+
+.el-upload-dragger{
+    width: 100%;
+    height: 100%;
+    align-content: center;
+    background-color: #F8FBFE  !important;
+    border: 1px dashed #E2ECFC;
+
+}
+/*改变上传功能的虚框大小 */
+.el-upload{
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.el-upload__text{
+    font-size: 14px;
+    font-weight: normal;
+    line-height: normal;
+    color: rgba(0, 0, 0, 0.85) !important;
+
+}
+
+.el-upload__tip{
+    color: rgba(0, 0, 0, 0.45) !important;
+}
+
+.button {
+    margin: 24px;
+    padding: 5px 12px 5px 12px;
+    justify-content: flex-end;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+}
+
+/* 页码 */
+.pagination {
+    margin-top: 24px;
+}
+
+.button-container{
+    text-align: right;
+    padding-bottom: 24px;
+    padding-right: 24px;
+}

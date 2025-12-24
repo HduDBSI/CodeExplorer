@@ -1,0 +1,82 @@
+# ===================== 前端项目通用过滤规则 =====================
+# 依赖包（体积大，无需提交）
+codeexplorer-front/node_modules/
+
+# 构建产物（自动生成，无需提交）
+codeexplorer-front/dist/
+codeexplorer-front/build/
+codeexplorer-front/dist-ssr/
+codeexplorer-front/.output/
+
+# 包锁文件（避免不同环境冲突）
+codeexplorer-front/package-lock.json
+codeexplorer-front/yarn.lock
+codeexplorer-front/pnpm-lock.yaml
+
+# 缓存文件
+codeexplorer-front/.npm/
+codeexplorer-front/.pnpm-store/
+codeexplorer-front/.cache/
+codeexplorer-front/.eslintcache
+
+# 环境变量（包含敏感信息，本地保留）
+codeexplorer-front/.env
+codeexplorer-front/.env.local
+codeexplorer-front/.env.development.local
+codeexplorer-front/.env.production.local
+codeexplorer-front/.env.test.local
+
+# 编辑器配置（本地个性化，无需提交）
+codeexplorer-front/.vscode/
+codeexplorer-front/.idea/
+codeexplorer-front/.editorconfig
+codeexplorer-front/*.sublime-*
+
+# ===================== 系统通用过滤规则 =====================
+# Mac 系统文件（隐藏文件，无意义）
+.DS_Store
+.CFUserTextEncoding
+.Spotlight-V100
+.Trashes
+
+# Windows 系统文件
+Thumbs.db
+desktop.ini
+
+# 日志文件
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# 临时文件
+*.tmp
+*.temp
+*.swp
+*~
+
+# ===================== 其他冗余文件 =====================
+# 压缩包
+*.zip
+*.rar
+*.7z
+*.tar.gz
+
+# 文档/表格（非代码文件）
+*.docx
+*.doc
+*.xlsx
+*.xls
+*.pdf
+*.ppt
+
+# 系统目录（无需提交）
+Applications/
+Documents/
+Downloads/
+Library/
+Movies/
+Music/
+Pictures/
+Public/
