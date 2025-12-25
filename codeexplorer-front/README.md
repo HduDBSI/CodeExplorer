@@ -80,4 +80,5 @@ npm run serve
 
 Start the program by using the command "npm run serve" in the CodeExplorer directory; log in to http://127.0.0.1:8080/ and enter the login interface. Enter the account: bindian and the password: bindian2024 to log in.
 
-![image.png](https://foruda.gitee.com/images/1766645462604417721/8570d9ce_13222236.png)
+<img width="836" height="480" alt="image" src="https://github.com/user-attachments/assets/440a68fd-bb2d-40ad-9e7f-2b887618f96e" />
+
