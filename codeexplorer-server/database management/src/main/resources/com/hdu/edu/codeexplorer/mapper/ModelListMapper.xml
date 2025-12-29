@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.hdu.edu.codeexplorer.mapper.ModelListMapper">
+
+	<!-- 1. 查询所有模型信息 -->
+	<select id="getAllModels" resultType="com.hdu.edu.codeexplorer.entity.ModelList">
+		SELECT
+			*
+		FROM
+			tblmodel_list
+	</select>
+
+	<!-- 2. 根据ID查询模型信息 -->
+	<select id="getModelById" resultType="com.hdu.edu.codeexplorer.entity.ModelList">
+		SELECT
+			*
+		FROM
+			tblmodel_list
+		WHERE
+			id = #{id}
+	</select>
+
+	<!-- 3. 根据ID删除模型信息 -->
+	<delete id="deleteModelById">
+		DELETE FROM
+			tblmodel_list
+		WHERE
+			id = #{id}
+	</delete>
+
+	<!-- 4. 增加模型信息 -->
+	<insert id="addModel" parameterType="com.hdu.edu.codeexplorer.entity.ModelList">
+		INSERT INTO tblmodel_list
+		(
+			id,
+		    name,
+			model,
+			summary,
+			createTime,
+			updateTime,
+		 	remark
+		)
+		VALUES
+			(
+				#{id},
+				#{name},
+				#{model},
+				#{summary},
+				#{createTime},
+				#{updateTime},
+				#{remark}
+			)
+	</insert>
+</mapper>

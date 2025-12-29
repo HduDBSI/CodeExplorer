@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.hdu.edu.codeexplorer.mapper.DatasetListMapper">
+
+    <!-- 1. 查询所有数据集信息 -->
+    <select id="getAllDatasets" resultType="com.hdu.edu.codeexplorer.entity.DatasetList">
+        SELECT
+            *
+        FROM
+            tbldataset_list
+    </select>
+
+    <!-- 2. 增加数据集 -->
+    <insert id="addDataset" parameterType="com.hdu.edu.codeexplorer.entity.DatasetList">
+        INSERT INTO tbldataset_list
+        (
+            id,
+            dataset,
+            state,
+            time,
+            result,
+            remark
+        )
+        VALUES
+            (
+                #{id},
+                #{dataset},
+                #{state},
+                #{time},
+                #{result},
+                #{remark}
+            )
+    </insert>
+
+    <!-- 3. 根据ID删除数据集信息 -->
+    <delete id="deleteDatasetById">
+        DELETE FROM
+            tbldataset_list
+        WHERE
+            id = #{id}
+    </delete>
+
+    <!-- 4. 根据ID查询数据集信息 -->
+    <select id="getDatasetById" resultType="com.hdu.edu.codeexplorer.entity.DatasetList">
+        SELECT
+            *
+        FROM
+            tbldataset_list
+        WHERE
+            id = #{id}
+    </select>
+
+</mapper>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.hdu.edu.codeexplorer.mapper.TestListMapper">
+
+    <!-- 1. 查询所有任务信息 -->
+    <select id="getAllTestLists" resultType="com.hdu.edu.codeexplorer.entity.TestList">
+        SELECT * FROM tbltest_list
+    </select>
+
+    <!-- 2. 增加任务 -->
+    <insert id="addTestList" parameterType="com.hdu.edu.codeexplorer.entity.TestList">
+        INSERT INTO tbltest_list (
+            name, model_id, model, dataset_id, dataset, state, gpu, type, param, time, result, remark,
+            epochs, test_batch_size, lr, lr_decay_factor, weight_decay, lr_decay_step_size, hidden, num_classes, nheads, dropout, alpha
+        )
+        VALUES (
+                   #{name}, #{model_id}, #{model}, #{dataset_id}, #{dataset}, #{state}, #{gpu}, #{type}, #{param}, #{time}, #{result}, #{remark},
+                   #{epochs}, #{test_batch_size}, #{lr}, #{lr_decay_factor}, #{weight_decay}, #{lr_decay_step_size}, #{hidden}, #{num_classes}, #{nheads}, #{dropout}, #{alpha}
+               )
+    </insert>
+
+    <!-- 3. 删除任务 -->
+    <delete id="deleteTestListById">
+        DELETE FROM tbltest_list WHERE id = #{id}
+    </delete>
+
+    <!-- 4. 修改任务 -->
+    <update id="updateTestListById" parameterType="com.hdu.edu.codeexplorer.entity.TestList">
+        UPDATE tbltest_list
+        SET
+            name = #{name},
+            model_id = #{model_id},
+            model = #{model},
+            dataset_id = #{dataset_id},
+            dataset = #{dataset},
+            state = #{state},
+            gpu = #{gpu},
+            type = #{type},
+            param = #{param},
+            time = #{time},
+            result = #{result},
+            remark = #{remark},
+            epochs = #{epochs},
+            test_batch_size = #{test_batch_size},
+            lr = #{lr},
+            lr_decay_factor = #{lr_decay_factor},
+            weight_decay = #{weight_decay},
+            lr_decay_step_size = #{lr_decay_step_size},
+            hidden = #{hidden},
+            num_classes = #{num_classes},
+            nheads = #{nheads},
+            dropout = #{dropout},
+            alpha = #{alpha}
+        WHERE id = #{id}
+    </update>
+
+    <!-- 5. 根据ID查询任务信息 -->
+    <select id="getTestById" resultType="com.hdu.edu.codeexplorer.entity.TestList">
+        SELECT
+            *
+        FROM
+            tbltest_list
+        WHERE
+            id = #{id}
+    </select>
+</mapper>

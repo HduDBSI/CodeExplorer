@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.hdu.edu.codeexplorer.mapper.PreprocessingListMapper">
+
+    <!-- 1. 查询所有任务信息 -->
+    <select id="getAllPreprocessingLists" resultType="com.hdu.edu.codeexplorer.entity.PreprocessingList">
+        SELECT * FROM tblpreprocessing_list
+    </select>
+
+    <!-- 2. 增加任务 -->
+    <insert id="addPreprocessingList" parameterType="com.hdu.edu.codeexplorer.entity.PreprocessingList">
+        INSERT INTO tblpreprocessing_list (name, dataset, state, gpu, time, result, remark)
+        VALUES (#{name}, #{dataset}, #{state}, #{gpu}, #{time}, #{result}, #{remark})
+    </insert>
+
+    <!-- 3. 删除任务 -->
+    <delete id="deletePreprocessingListById">
+        DELETE FROM tblpreprocessing_list WHERE id = #{id}
+    </delete>
+
+    <!-- 4. 修改任务 -->
+    <update id="updatePreprocessingListById" parameterType="com.hdu.edu.codeexplorer.entity.PreprocessingList">
+        UPDATE tblpreprocessing_list
+        SET name = #{name}, dataset = #{dataset}, state = #{state}, gpu = #{gpu}, time = #{time}, result = #{result}, remark = #{remark}
+        WHERE id = #{id}
+    </update>
+
+    <!-- 5. 根据ID查询任务信息 -->
+    <select id="getPreprocessingById" resultType="com.hdu.edu.codeexplorer.entity.PreprocessingList">
+        SELECT
+            *
+        FROM
+            tblpreprocessing_list
+        WHERE
+            id = #{id}
+    </select>
+</mapper>
