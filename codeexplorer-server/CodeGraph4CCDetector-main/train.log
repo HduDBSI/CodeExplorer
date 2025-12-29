@@ -1,0 +1,28 @@
+nohup: ignoring input
+ * Serving Flask app 'train'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://10.1.21.160:8997
+Press CTRL+C to quit
+10.1.21.159 - - [12/Feb/2025 13:05:46] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [12/Feb/2025 13:10:50] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [12/Feb/2025 13:10:50] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [12/Feb/2025 22:59:45] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [13/Feb/2025 00:23:08] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [13/Feb/2025 11:25:55] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [13/Feb/2025 12:54:16] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [13/Feb/2025 13:00:57] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [13/Feb/2025 13:00:58] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [13/Feb/2025 13:03:31] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [13/Feb/2025 13:47:00] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [13/Feb/2025 22:08:38] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [13/Feb/2025 22:33:10] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [14/Feb/2025 21:39:03] code 400, message Bad request syntax ('\x05\x01\x00')
+10.1.21.159 - - [14/Feb/2025 21:39:03] "\x05\x01\x00" HTTPStatus.BAD_REQUEST -
+10.1.21.159 - - [14/Feb/2025 23:09:43] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [14/Feb/2025 23:21:34] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [14/Feb/2025 23:21:34] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [15/Feb/2025 11:12:29] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [15/Feb/2025 11:20:32] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [15/Feb/2025 11:20:33] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [15/Feb/2025 11:56:09] "GET / HTTP/1.1" 404 -

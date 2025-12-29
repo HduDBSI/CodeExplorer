@@ -1,0 +1,68 @@
+nohup: ignoring input
+ * Serving Flask app 'dic_struct'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://10.1.21.160:9005
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 206-630-452
+10.1.21.159 - - [12/Feb/2025 12:41:38] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [12/Feb/2025 14:01:12] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+10.1.21.159 - - [12/Feb/2025 14:01:12] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+10.1.21.159 - - [12/Feb/2025 22:46:40] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [12/Feb/2025 22:55:08] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [12/Feb/2025 23:55:22] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [13/Feb/2025 06:59:30] code 400, message Bad request version ('À\x14À')
+10.1.21.159 - - [13/Feb/2025 06:59:30] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03%Q¤Ñ dÀ\x9dø à¤ïÂ\x9fay)á2\x1b\x0fÆû±V¬±à·\x16: \x8e[#Aûô\x05u×P\x07qÈkàÄ½ºÏ\x05Ççj£\x8cx\x87R\x82¾ªï\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+10.1.21.159 - - [13/Feb/2025 06:59:34] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [13/Feb/2025 06:59:38] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [13/Feb/2025 06:59:39] code 505, message Invalid HTTP version (2.0)
+10.1.21.159 - - [13/Feb/2025 06:59:39] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+10.1.21.159 - - [13/Feb/2025 11:06:30] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [13/Feb/2025 11:11:07] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [13/Feb/2025 11:11:09] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [13/Feb/2025 23:30:40] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [14/Feb/2025 00:50:19] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [14/Feb/2025 00:55:35] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [14/Feb/2025 04:31:29] code 400, message Bad request version ('ÖOÝ©´')
+10.1.21.159 - - [14/Feb/2025 04:31:29] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03<åoFN\x03\x07Òÿ``£RT\x8bíñdL\x15;¶Ñ\x98Õá»¾Æ\x92ôc &j\x82ÅJ½äâv÷ ò\x12\x09ÖOÝ©´\x1d" HTTPStatus.BAD_REQUEST -
+10.1.21.159 - - [14/Feb/2025 04:31:33] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [14/Feb/2025 04:31:36] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [14/Feb/2025 04:31:38] code 505, message Invalid HTTP version (2.0)
+10.1.21.159 - - [14/Feb/2025 04:31:38] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+10.1.21.159 - - [14/Feb/2025 05:08:21] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [14/Feb/2025 11:01:16] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [14/Feb/2025 11:10:39] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [14/Feb/2025 11:10:41] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [14/Feb/2025 11:11:43] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [14/Feb/2025 17:33:01] code 400, message Bad request version ('À\x13À')
+10.1.21.159 - - [14/Feb/2025 17:33:01] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03I\x06²ù¼\x99iÀYûøºe-\x83Ud]\x0e\x8d·b8´gÆÝ9dZ8f gÁ\x81i³öòË°©\x19NÖ½\x95g|püé<Z¡\x90T·é¥8'O;\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À" HTTPStatus.BAD_REQUEST -
+10.1.21.159 - - [14/Feb/2025 17:33:12] "GET / HTTP/1.1" 404 -
+ * Detected change in '/home/cz/CodeGraph4CCDetector-main/test1.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 206-630-452
+10.1.21.159 - - [14/Feb/2025 21:39:03] code 400, message Bad request syntax ('\x05\x01\x00')
+10.1.21.159 - - [14/Feb/2025 21:39:03] "\x05\x01\x00" HTTPStatus.BAD_REQUEST -
+10.1.21.159 - - [15/Feb/2025 00:03:27] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [15/Feb/2025 00:10:33] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [15/Feb/2025 00:10:36] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [15/Feb/2025 02:02:00] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [15/Feb/2025 03:53:44] code 400, message Bad request version ('À\x14À')
+10.1.21.159 - - [15/Feb/2025 03:53:44] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03äëæ¯+ÇÅ\x13ä!ç\x03^Ý\x16Ààä\x1e)IÖ#Ä;9x+!2À\x08 \x13\x91\x04#\x16^íM\x0cÃ'q{fâEb\x9fà²eÍ\x1f\x1aa\x17<?\x8aàEr\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+10.1.21.159 - - [15/Feb/2025 03:53:48] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [15/Feb/2025 03:53:58] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [15/Feb/2025 03:54:00] code 505, message Invalid HTTP version (2.0)
+10.1.21.159 - - [15/Feb/2025 03:54:00] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+10.1.21.159 - - [15/Feb/2025 08:28:15] code 400, message Bad request syntax ('JRMI\x00\x02K')
+10.1.21.159 - - [15/Feb/2025 08:28:15] "JRMI\x00\x02K" HTTPStatus.BAD_REQUEST -
+10.1.21.159 - - [15/Feb/2025 08:28:15] "GET / HTTP/1.0" 404 -
+10.1.21.159 - - [15/Feb/2025 08:29:50] code 400, message Bad request version ("`\x84Í\x8e2þ«í¯÷:Ý@\x9e\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ")
+10.1.21.159 - - [15/Feb/2025 08:29:50] "\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x89\x96íX\x06ËØ>2+ò«Z?ó¡ð|ÚÜÞò®p½ñó»=ÊLÎ nû\x8bhÞ\x8bÍ\x19\x8c\x12°Ö\x0b\x8bG\x98­\x1f`\x84Í\x8e2þ«í¯÷:Ý@\x9e\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ" HTTPStatus.BAD_REQUEST -
+10.1.21.159 - - [15/Feb/2025 08:29:51] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [15/Feb/2025 08:30:12] "GET /favicon.ico HTTP/1.1" 404 -
+10.1.21.159 - - [15/Feb/2025 12:13:48] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [15/Feb/2025 12:23:31] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [15/Feb/2025 15:35:17] code 400, message Bad request syntax ('\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x03\x00\x00\x00')
+10.1.21.159 - - [15/Feb/2025 15:35:17] "\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x03\x00\x00\x00" HTTPStatus.BAD_REQUEST -

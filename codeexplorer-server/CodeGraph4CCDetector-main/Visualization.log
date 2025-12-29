@@ -1,0 +1,51 @@
+nohup: ignoring input
+ * Serving Flask app 'Visualization'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://10.1.21.160:8999
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 206-630-452
+10.1.21.159 - - [12/Feb/2025 12:29:55] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+10.1.21.159 - - [12/Feb/2025 12:29:55] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+10.1.21.159 - - [12/Feb/2025 14:03:54] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+10.1.21.159 - - [12/Feb/2025 14:03:54] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+10.1.21.159 - - [12/Feb/2025 17:23:07] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [12/Feb/2025 17:48:42] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [12/Feb/2025 21:05:39] code 400, message Bad request version ('À\x13À')
+10.1.21.159 - - [12/Feb/2025 21:05:39] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03I\x06²ù¼\x99iÀYûøºe-\x83Ud]\x0e\x8d·b8´gÆÝ9dZ8f gÁ\x81i³öòË°©\x19NÖ½\x95g|püé<Z¡\x90T·é¥8'O;\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À" HTTPStatus.BAD_REQUEST -
+10.1.21.159 - - [12/Feb/2025 21:05:50] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [12/Feb/2025 21:06:16] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [13/Feb/2025 08:19:12] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [13/Feb/2025 08:24:47] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [13/Feb/2025 08:24:48] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [13/Feb/2025 08:43:35] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [13/Feb/2025 11:15:02] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [13/Feb/2025 22:26:04] code 400, message Bad request version ('À\x14À')
+10.1.21.159 - - [13/Feb/2025 22:26:04] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x9e\x06\x0f,0×\x01\x99\x06[É\x1c®\x1fDïþ5;\x0fFþ?Ið¼\x9aÌ\x90.$\x1a\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+10.1.21.159 - - [13/Feb/2025 22:26:05] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [13/Feb/2025 22:26:05] code 400, message Bad request version ('À\x14À')
+10.1.21.159 - - [13/Feb/2025 22:26:05] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03{\x96\x07\x03*Y@\x85ÞE¯Ê\x85U\x9cÔQ\x0e5\x89G¬ +Ä?÷OðÛ¦\x0d\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+10.1.21.159 - - [13/Feb/2025 22:26:05] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [13/Feb/2025 22:26:08] code 400, message Bad request syntax ('SSH-2.0-Go')
+10.1.21.159 - - [13/Feb/2025 22:26:08] "SSH-2.0-Go" HTTPStatus.BAD_REQUEST -
+10.1.21.159 - - [13/Feb/2025 23:34:43] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [14/Feb/2025 11:16:21] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [14/Feb/2025 12:40:51] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [14/Feb/2025 12:44:49] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [14/Feb/2025 12:44:52] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [14/Feb/2025 12:45:58] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [14/Feb/2025 13:50:49] "GET / HTTP/1.1" 404 -
+ * Detected change in '/home/cz/CodeGraph4CCDetector-main/test1.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 206-630-452
+10.1.21.159 - - [14/Feb/2025 21:39:03] code 400, message Bad request syntax ('\x05\x01\x00')
+10.1.21.159 - - [14/Feb/2025 21:39:03] "\x05\x01\x00" HTTPStatus.BAD_REQUEST -
+10.1.21.159 - - [15/Feb/2025 09:18:17] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [15/Feb/2025 09:25:05] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [15/Feb/2025 09:25:06] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [15/Feb/2025 10:10:24] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [15/Feb/2025 10:50:22] "GET / HTTP/1.1" 404 -
+10.1.21.159 - - [15/Feb/2025 16:22:18] "GET / HTTP/1.1" 404 -
